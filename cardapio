@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio - Apenas Uma Pizza</title>
+
+    <!-- Fonte + CSS principal -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cardapio.css">
+</head>
+
+<body>
+
+    <!-- ============================== -->
+    <!-- SEÇÃO DO CARDÁPIO (SEM HEADER) -->
+    <!-- ============================== -->
+
+    <section class="cardapio-container">
+
+        <h1 class="titulo-principal">NOSSO CARDÁPIO</h1>
+        <p class="subtitulo">Todas as pizzas são feitas com ingredientes selecionados e muito sabor.</p>
+
+        <!-- ============================== -->
+        <!-- CATEGORIA: PIZZAS TRADICIONAIS -->
+        <!-- ============================== -->
+        <h2 class="categoria">PIZZAS TRADICIONAIS</h2>
+
+        <div class="grid-pizzas">
+
+            <!-- ITEM -->
+            <div class="pizza-item">
+                <img src="TRADICIONAL1.JPG" alt="Pizza Mexicana">
+                <h3>Mexicana</h3>
+                <p>Molho de tomate, mussarela, presunto, milho, frango, pimenta e orégano.</p>
+                <span class="preco">R$ 39,90</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="TRADICIONAL2.JPG" alt="Pizza Portuguesa">
+                <h3>Portuguesa</h3>
+                <p>Molho de tomate, mussarela, presunto, ovo, cebola, pimentão e orégano.</p>
+                <span class="preco">R$ 39,90</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="TRADICIONAL3.JPG" alt="Pizza Calabresa">
+                <h3>Calabresa</h3>
+                <p>Molho de tomate, mussarela, calabresa fatiada e orégano.</p>
+                <span class="preco">R$ 39,90</span>
+            </div>
+
+        </div>
+
+        <!-- ============================== -->
+        <!-- CATEGORIA: PIZZAS ESPECIAIS -->
+        <!-- ============================== -->
+        <h2 class="categoria">PIZZAS ESPECIAIS</h2>
+
+        <div class="grid-pizzas">
+
+            <div class="pizza-item">
+                <img src="ESPECIAL1.JPG" alt="Pizza Salmão com Cream Chease">
+                <h3>Pepperoni</h3>
+                <p>Salmão fresco, queijo, molhe e especiarias.</p>
+                <span class="preco">R$ 49,90</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="ESPECIAL2.JPG" alt="Pizza 4 Queijos">
+                <h3>4 Queijos</h3>
+                <p>Provolone, mussarela, catupiry e parmesão.</p>
+                <span class="preco">R$ 49,90</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="ESPECIAL3.JPG" alt="Pizza Tomate Seco">
+                <h3>Tomate Seco</h3>
+                <p>Mussarela, tomate seco, rúcula e orégano.</p>
+                <span class="preco">R$ 49,90</span>
+            </div>
+
+        </div>
+
+        <!-- ============================== -->
+        <!-- CATEGORIA: MINI PIZZAS -->
+        <!-- ============================== -->
+        <h2 class="categoria">MINI PIZZAS</h2>
+
+        <div class="grid-pizzas">
+
+            <div class="pizza-item">
+                <img src="img/mini1.png" alt="Mini Salmão com Cream Chease">
+                <h3>Mini Calabresa</h3>
+                <p>Salmão fresco, queijo, molhe e especiarias.</p>
+                <span class="preco">R$ 12,00</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="img/mini2.png" alt="Mini Tomate Seco">
+                <h3>Mini Frango</h3>
+                <p>Mussarela, tomate seco, rúcula e orégano.</p>
+                <span class="preco">R$ 12,00</span>
+            </div>
+
+            <div class="pizza-item">
+                <img src="img/mini3.png" alt="Mini Carne Seca">
+                <h3>Mini Portuguesa</h3>
+                <p>Carne seca desfiada, queijo mussarela, milho e orégano.</p>
+                <span class="preco">R$ 12,00</span>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
