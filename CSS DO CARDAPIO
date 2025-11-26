@@ -1,0 +1,97 @@
+/* =========================== */
+/* ESTILO GERAL DO CARDÁPIO    */
+/* =========================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+/* Container principal */
+.cardapio-container {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+/* Títulos */
+.titulo-principal {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #107602; /* Verde do seu site */
+}
+
+.subtitulo {
+    color: #888;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+/* Nome da categoria */
+.categoria {
+    margin-top: 60px;
+    font-size: 2.2rem;
+    color: #c42108; /* Vermelho do seu site */
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* =========================== */
+/* GRID DOS ITENS DE PIZZA     */
+/* =========================== */
+.grid-pizzas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Item individual */
+.pizza-item {
+    background: #fafafa;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    transition: transform 0.3s;
+}
+
+.pizza-item:hover {
+    transform: scale(1.04);
+}
+
+/* Imagem */
+.pizza-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Nome da pizza */
+.pizza-item h3 {
+    font-size: 1.4rem;
+    color: #111;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+/* Descrição */
+.pizza-item p {
+    color: #555;
+    font-size: 0.95rem;
+    margin: 10px 0 15px;
+}
+
+/* Preço */
+.preco {
+    display: inline-block;
+    margin-top: 10px;
+    background: #25d366;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
