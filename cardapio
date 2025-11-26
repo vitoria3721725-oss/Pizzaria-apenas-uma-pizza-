@@ -19,7 +19,7 @@
     <section class="cardapio-container">
 
         <h1 class="titulo-principal">NOSSO CARDÁPIO</h1>
-        <p class="subtitulo">Todas as pizzas são feitas com ingredientes selecionados e muito sabor.</p>
+        <p class="subtitulo">Seja bem-vindo(a)! Nosso cardápio foi pensado para agradar todos os gostos, com opções deliciosas, ingredientes selecionados e muito sabor em cada detalhe. Faça seu pedido e aproveite!.</p>
 
         <!-- ============================== -->
         <!-- CATEGORIA: PIZZAS TRADICIONAIS -->
@@ -30,27 +30,34 @@
 
             <!-- ITEM -->
             <div class="pizza-item">
-                <img src="TRADICIONAL1.JPG" alt="Pizza Mexicana">
+                <img src="Pizza Mexicana.JPG" alt="Pizza Mexicana">
                 <h3>Mexicana</h3>
-                <p>Molho de tomate, mussarela, presunto, milho, frango, pimenta e orégano.</p>
+                <p>Molho de tomate, mussarela, cebola roxa, pimentão verde, pimentão vermelho, pimenta, azeitona preta, carne moida, cheiro verde e orégano.</p>
                 <span class="preco">R$ 39,90</span>
             </div>
 
             <div class="pizza-item">
-                <img src="TRADICIONAL2.JPG" alt="Pizza Portuguesa">
+                <img src="Pizza Portuguesa.JPG" alt="Pizza Portuguesa">
                 <h3>Portuguesa</h3>
                 <p>Molho de tomate, mussarela, presunto, ovo, cebola, pimentão e orégano.</p>
                 <span class="preco">R$ 39,90</span>
             </div>
 
             <div class="pizza-item">
-                <img src="TRADICIONAL3.JPG" alt="Pizza Calabresa">
+                <img src="Pizza Calabresa.JPG" alt="Pizza Calabresa">
                 <h3>Calabresa</h3>
                 <p>Molho de tomate, mussarela, calabresa fatiada e orégano.</p>
                 <span class="preco">R$ 39,90</span>
             </div>
 
         </div>
+
+            <div class="pizza-item">
+                <img src="Pizza Frango com Catupiry.JPG" alt="Pizza Calabresa">
+                <h3>Calabresa</h3>
+                <p>Molho de tomate, mussarela, frango desfiado, catupiry e orégano.</p>
+                <span class="preco">R$ 39,90</span>
+            </div>
 
         <!-- ============================== -->
         <!-- CATEGORIA: PIZZAS ESPECIAIS -->
